@@ -1,0 +1,235 @@
+/*
+============================
+		//CUSTOM CSS
+============================
+*/
+@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");
+
+.menu {
+	background-color: #f8f8f8;
+	border-color: #D3D3D3;
+}
+.menuPils{
+	min-width:100px;
+	text-align:center;
+}
+
+.nav_new {
+	border-radius: 0px;
+	line-height: 30px;
+}
+
+.naslov {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.radius_none {
+	border-radius: 0px !important;
+	font-size: 1.25em;
+}
+
+.textNone {
+	text-decoration: line-through;
+	color: rgba(62, 63, 61, 0.57);
+}
+
+.well-style {
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.news-l {
+	height:250px;
+}
+
+.well-style p span{
+	white-space: pre-line;
+}
+
+#success_message {
+	display: none;
+}
+
+#exTab1 .tab-content {
+	color : white;
+	background-color: #428bca;
+	padding : 5px 15px;
+}
+
+#exTab2 h3 {
+	color : white;
+	background-color: #428bca;
+	padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+	border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+	border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+	color : white;
+	background-color: #428bca;
+	padding : 5px 15px;
+}
+
+/*******************************
+ACCORDION WITH TOGGLE ICONS
+*******************************/
+.panel-group .panel {
+	border-radius: 0;
+	box-shadow: none;
+	border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+	padding: 0;
+	border-radius: 0;
+	color: #212121;
+	background-color: #FAFAFA;
+	border-color: #EEEEEE;
+}
+
+.panel-title {
+	font-size: 14px;
+}
+
+.panel-title > a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.more-less {
+	float: right;
+	color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #EEEEEE;
+}
+
+
+.demo {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+/*SLIDER*/
+
+.carousel-inner .item{
+	background: #a7cfdf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	max-height: 640px;/*change as your needs*/
+}
+.control-buttons{
+	text-align:center;
+}
+.transition-timer-carousel-progress-bar {
+	height: 3px;
+	background-color: #5cb85c;/*progress bar color*/
+	width: 0;
+	margin: 0 0 0 0;
+	border: none;
+	z-index: 11;
+	position: relative;
+}
+.carousel-control{
+	z-index: 11;
+}
+
+.img_width {
+	width: 100%;
+}
+
+img.img_width.img_height {
+	height: 100%;
+}
+
+.margin_top {
+	margin-top: 50px;
+}
+
+/*ROW 2*/
+.img {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.margin_bottom {
+	margin-bottom: 70px;
+}
+
+.cusColor {
+	color: #ffffff !important;
+	background-color: #337ab7 !important;
+	border-color: #337ab7 !important;
+}
+
+.cusBorder {
+	border-color: #337ab7;
+}
+
+/*FOOTER*/
+
+.social:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+.social {
+	-webkit-transform: scale(0.8);
+	/* Browser Variations: */
+
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+.navbar-inverse .navbar-toggle span {
+	background-color: #000 !important;	
+}
+
+.navbar-inverse .navbar-toggle:hover span,
+.navbar-inverse .navbar-toggle:focus span {
+	background-color: #fff !important;	
+}
+
+#social-fb:hover {
+	color: #3B5998;
+}
+#social-tw:hover {
+	color: #4099FF;
+}
+#social-gp:hover {
+	color: #d34836;
+}
+#social-ins:hover {
+	color: #f27643;
+}
+#social-em:hover {
+	color: #f39c12;
+}
+
+@media screen and (max-width:767px) {
+	.nav_new .menuPils {
+		float:none !important;
+	}
+	
+}

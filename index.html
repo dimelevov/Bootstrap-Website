@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Site</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+ 
+    <!--Social Icon-->
+    <link href="css/bootstrap-social.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet"/>
+</head>
+
+<body  data-spy="scroll" data-target="#navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top menu">
+        <div class="container">
+        <div class="col-md-4 col-sm-2">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img style="height: 120%" src="img/bootstrap_logo.png"></a>
+            </div><!--/.navbar-header -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" style="height: 0.8px;">
+            <div class="col-xs-12 col-sm-10 col-md-8">
+                <ul class="nav nav-pills navbar-right nav_new">
+                    <li class="active menuPils"><a class="radius_none" href="#home"><i class="fa fa-home fa-lg" ></i></a></li>
+                    <li class="menuPils"><a class="radius_none" href="#row1">Пакети</a></li>
+                    <li class="menuPils"><a class="radius_none" href="#row2">Наслов</a></li>
+                    <li class="menuPils"><a class="radius_none" href="#row3">Новости</a></li>
+                    <li class="menuPils"><a class="radius_none" href="#row4">Контакт</a></li>
+                </ul>
+			</div>
+        </div>
+        </div><!--.container-->
+    </nav><!--/.nav-collapse -->
+
+<div class="container-fluid margin_top">
+    <div class="row" id="home">
+        <div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="active item">
+                <!--put img inside itens like this-->
+                <!--<img src="" alt="...">-->
+                    <img class="img_width img_height img-responsive" src="img/slider_img_3.jpg">
+                </div>
+                <div class="item">
+                    <img class="img_width img_height img-responsive" src="img/slider_img_4.jpg">
+                </div>
+                <div class="item">
+                    <img class="img_width img_height img-responsive" src="img/slider_img_5.jpg">
+                </div>
+            </div>
+            <hr class="transition-timer-carousel-progress-bar" />
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div><!--.container-fluid-->
+
+<div class="container">
+    <div class="row" id="row1">
+        <h2 class="text-center naslov">Веб Дизајн Пакети</h2>
+        <div class="col-xs-12">
+            <section class="container show-source">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-info cusBorder">
+                            <div class="panel-heading cusColor"><h3 class="text-center">START UP</h3></div>
+                            <div class="panel-body text-center">
+                                <p style="font-size:15px"><strong>17 990 ден</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Дизајн по избор </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Мени со модул </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> До 5 страници </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за новости </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за анкети </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за пребарување </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за банери </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Контакт формулар </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Еднојазична верзија </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Бесплатен веб хостинг </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> До 5 e-mail адреси </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Статистика на посетеност </li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button class="btn btn-lg btn-block btn-danger" onclick="prodolziKupi('StartUp')">КУПИ</button>
+                            </div><!--/panel-footer-->
+                        </div><!--/panel-->
+                    </div><!--/col-->
+                    <div class="col-md-4">
+                        <div class="panel panel-info cusBorder">
+                            <div class="panel-heading cusColor"><h3 class="text-center">ECONOMY</h3></div>
+                            <div class="panel-body text-center">
+                                <p style="font-size:15px"><strong>20 990 ден</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Дизајн по избор </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Мени со модул </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> До 10 страници </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за новости </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за анкети </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за пребарување </li>
+                                <li class="list-group-item textNone"><i class="icon-ok text-danger"></i> Модул за банери </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Контакт формулар </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Еднојазична верзија </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Бесплатен веб хостинг </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> До 10 e-mail адреси </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Статистика на посетеност </li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button class="btn btn-lg btn-block btn-danger" onclick="prodolziKupi('Economy')">КУПИ</button>
+                            </div><!--/panel-footer-->
+                        </div><!--/panel-->
+                    </div><!--/col-->
+                    <div class="col-md-4">
+                        <div class="panel panel-info cusBorder">
+                            <div class="panel-heading cusColor"><h3 class="text-center">BUSINESS</h3></div>
+                            <div class="panel-body text-center">
+                                <p style="font-size:15px"><strong>25 990 ден</strong></p>
+                            </div>
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Уникатен дизајн </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Мени со модул </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Неограничен број на страници </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Модул за новости </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Модул за анкети </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Модул за пребарување </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Модул за банери </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Kонтакт формулар </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Еднојазична верзија </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Бесплатен веб хостинг </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> До 15 e-mail адреси </li>
+                                <li class="list-group-item"><i class="icon-ok text-danger"></i> Статистика на посетеност </li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button class="btn btn-lg btn-block btn-danger" onclick="prodolziKupi('Business')">КУПИ</button>
+                            </div><!--/panel-footer-->
+                        </div><!--/panel-->
+                    </div><!--/col-->
+                </div><!--/row-->
+            </section><!--/container-->
+
+            <div id="source-modal" class="modal fade" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">Source Code <button id="btnCopy" class="btn btn-default btn-xs">Select all</button>
+
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <textarea class="form-control" id="sourceCode" autofocus="" rows="25">&lt;button type="button" class="btn btn-default btn-lg btn-block"&gt;Block level button&lt;/button&gt;</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--col-xs-12 col-md-7-->
+    </div><!--.row-->
+</div><!--.container-->
+<div class="container-fluid">
+    <hr/>
+</div>
+<div class="container">
+    <div class="row" id="row2">
+        <h2 class="text-center naslov">НАСЛОВ</h2>
+        <div class="col-lg-6">
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                               aria-expanded="true" aria-controls="collapseOne">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                Графички дизајн, дизајн на рекламен материјал, припрема за печатење
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <p>Покрај нашите основни услуги како што се развој и изработка на Web и CD презентации, на нашите клиенти им нудиме и други услуги.</p>
+                            <p>Таму кај што постои деловна врска помеѓу фирмата и клиентот, графичкиот дизајнер би требало да е помеѓу нив. За сериозна фирма многу е важно да има лесно препознатлив и доследно применуван визуелен идентитет. Ништо не Ви вреди ако имате убаво лого, а не го ставате на Вашите визит карти, фактури, меморандуми, проспекти...</p>
+                            <p>Ако сте наш клиент, не треба да се грижите за сето ова зашто ние ќе се потрудиме Вашата фирма секогаш да остава добар впечаток. Нудиме комплетна услуга - од дизајнирање на логоа, меморандуми, визит карти до печатење на рекламни брошури, плакати и календари или било каков друг рекламен материјал.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                CD - презентација
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <p>Покрај изработка на Web презентации (страници), изработуваме и CD презентации, како промотивни артикли или како информативен каталог за потенцијалните купувачи. CD дисковите имаат неколку предности како што се големиот капацитет, голема брзина и не е неопходен Интернет за нивна употреба.</p>
+                            <p>Користејќи ја многу поголемата брзина и капацитетот на CD-ата, како и лесното ракување, во можност сме на клиентите да им понудиме и аудио/видео секвенци, со што уште повеќе ќе им се приближите на Вашите корисници.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                Online маркетинг
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <p>Развојот на Интернет не е само голем, туку и многу возбудлив. Во моментов има повеќе од 300 милиони корисници, а секој месец нивниот број расте за повеќе од 1 милион. Но, сепак, најголем дел од популацијата сеуште не е приклучен. Што значи ова за Вас? Тоа значи дека Вие имате можност да им се приклучите на милионите нови корисници, а истовремено да им ги понудите Вашите производи и услуги.</p>
+                            <p>Постојат повеќе милиони сајтови на Интернет. Зошто тогаш баш Вашиот сајт да биде посетен, и уште поважно, КАКО? Кога ќе го купите нашиот промотивен пакет, ние ќе го пријавиме Вашиот Web сајт на повеќе пребарувачи. Тоа ќе го зголеми бројот на надворешни линкови до Вашата презентација, а со тоа ќе се зголеми и бројот на посетителите (потенцијални муштерии).</p>
+                            <p>Постои голем број на пребарувачи на Интернет на кои ние можеме да го пријавиме Вашиот Web сајт!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                CD - презентација
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <p>Покрај изработка на Web презентации (страници), изработуваме и CD презентации, како промотивни артикли или како информативен каталог за потенцијалните купувачи. CD дисковите имаат неколку предности како што се големиот капацитет, голема брзина и не е неопходен Интернет за нивна употреба.</p>
+                            <p>Користејќи ја многу поголемата брзина и капацитетот на CD-ата, како и лесното ракување, во можност сме на клиентите да им понудиме и аудио/видео секвенци, со што уште повеќе ќе им се приближите на Вашите корисници.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                CD - презентација
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                        <div class="panel-body">
+                            <p>Покрај изработка на Web презентации (страници), изработуваме и CD презентации, како промотивни артикли или како информативен каталог за потенцијалните купувачи. CD дисковите имаат неколку предности како што се големиот капацитет, голема брзина и не е неопходен Интернет за нивна употреба.</p>
+                            <p>Користејќи ја многу поголемата брзина и капацитетот на CD-ата, како и лесното ракување, во можност сме на клиентите да им понудиме и аудио/видео секвенци, со што уште повеќе ќе им се приближите на Вашите корисници.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- panel-group -->
+        </div>
+        <div class="col-lg-6">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/v2AC41dglnM" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div><!--col-lg-6-->
+    </div><!-- .row -->
+</div><!--.container-->
+<div class="container-fluid">
+    <hr/>
+</div>
+<div class="container">
+    <div class="row text-center" id="row3">
+        <h2 class="text-center naslov">Последни Новости</h2>
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/settings.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Корисничка Подршка</h4>
+            <p>Со секој купен хостинг пакет добивате бесплатни услуги како и 24/7 техничка поддршка.</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/mail.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Е-маил Адреси</h4>
+            <p>Неограничен број на адреси за е-пошта, POP3 и IMAP поддршка, WebMail софтвери за прегледување на е-пошта.</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/e-commerce.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Интернет Продавница</h4>
+            <p>Продавајте ги вашите производи преку интернет и направете ги подостапни за клиентите од кога и да било.</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/instaface-facebook-instagram.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Управување и Водење со Социјални Медиуми (Facebook и Twitter)</h4>
+            <p>Водење на професионални/бизнис профили на водечките социјални медиуми.</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/cloud.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Cloud Решенија</h4>
+            <p>Безбедно чување на вашите податоци (датотеки), достапни преку кој било уред, од која било локација и во кое било време.</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4 col-sm-6 news-l">
+            <img src="img/apple-v-android.png" alt="Generic placeholder image" width="140" height="140">
+            <h4>Развој на Мобилни и Веб Апликации</h4>
+            <p>Развиваме мобилни апликации во Android и iOS или Веб апликации.</p>
+        </div><!-- /.col-md-4 -->
+    </div>
+</div><!--.container-->
+<div class="container-fluid">
+    <hr/>
+</div>
+<div class="container">
+    <div class="row margin_bottom" id="row4">
+        <h2 class="text-center naslov">Контакт</h2>
+        <div class="col-xs-12 col-md-7">
+
+            <form class="well form-horizontal" action="mailto:levov.dime@gmail.com" method="post" id="contact_form" enctype="text/plain">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend class="text-center">Контактирајте нè!</legend>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Име</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input name="first_name" placeholder="Вашето Име" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Презиме</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input name="last_name" placeholder="Вашето Презиме" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">E-маил</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input name="email" placeholder="E-маил адреса" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Телефон #</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                <input name="phone" placeholder="07X-XXX-XXX" class="form-control" type="text" maxlength="9" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Адераса</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                <input name="address" placeholder="Адреса на живеење" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Град</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                <input name="city" placeholder="Град на живеење" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Поштенски код</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                <input name="zip" placeholder="Поштенски код" class="form-control" type="text" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Веб сртана</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+                                <input name="website" placeholder="Веб страна" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- radio checks -->
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Изберете пакет</label>
+
+                        <div class="col-xs-12 col-md-8">
+                            <select id="paket" class="selectpicker">
+                                <option value="0">Одбери пакет</option>
+                                <option value="StartUp">Start Up</option>
+                                <option value="Economy">Economy</option>
+                                <option value="Business">Business</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Text area -->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-md-4 control-label">Опис на проектот</label>
+
+                        <div class="col-xs-12 col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <textarea class="form-control" name="comment" placeholder="Повеќе за проектот"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Success message -->
+                    <div class="alert alert-success" role="alert" id="success_message">Испратено <i class="glyphicon glyphicon-thumbs-up"></i> Ви Благодариме што нè контактиравте, нашиот тим набргу ќе Ви одговори.
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-warning">Испрати <span class="glyphicon glyphicon-send"></span></button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div><!--col-xs-12 col-md-7-->
+        <div class="col-xs-12 col-md-5">
+            <div id="map" style="height:300px"></div>
+            <div class="well well-sm well-style">
+                <p><span class="input-group-addon" style="font-weight: bold; text-align: left"><i class="glyphicon glyphicon-earphone"></i> Телефон:  +38976715440</span></p>
+                <p><span class="input-group-addon" style="font-weight: bold; text-align: left"><i class="glyphicon glyphicon-envelope"></i> Е-маил:  levov.dime@gmail.com</span></p>
+                <p><span class="input-group-addon" style="font-weight: bold; text-align: left"><i class="glyphicon glyphicon-home"></i> Адреса:  Јуриј Гагарин бр. 55/43, Скопје, Р. Македонија</span></p>
+            </div>
+        </div><!--col-xs-12 col-md-5-->
+    </div><!--.row-->
+</div><!--.container-->
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <div><p class="navbar-text pull-left" style="margin-top:21px">Изработена од: <span style="font-style: italic"> Диме Левов</span></p></div>
+        <div class="text-right center-block" style="padding:7px 0px">
+            <a href="https://www.facebook.com/dime.levov"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="hhttps://plus.google.com/u/0/113763989012378829868"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+            <a href="https://www.instagram.com/levovdime/"><i id="social-ins" class="fa fa-instagram fa-3x social"></i></a>
+            <a href="mailto:levov.dime@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javasctipt.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiPLxb0OsXTdj9iHig9gbo5ahWCZvz4zg"></script>
+<script src="js/maps.js"></script>
+
+</body>
+
+</html>
